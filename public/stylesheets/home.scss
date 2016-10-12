@@ -1,0 +1,47 @@
+.header{
+	height:60px;
+	line-height: 60px;
+	background-color:pink;
+	font-size: 32px;
+	text-align: center;
+}
+.body{
+	margin-top:60px;  
+	.box{
+		margin:0 auto;
+		text-align: center;
+		a{
+			display: block;
+			margin:0 auto;
+			width: 100px;
+			height: 60px;
+			line-height: 60px;
+			font-size: 24px;
+		}
+		.login-layer{
+			.form-control{
+				height: 40px;
+				line-height: 40px;
+				.label{
+					float: left;
+					width: 30%;
+					text-align: right;
+				}
+				.input-box{
+					float: left;
+					width: 50%;
+				}
+				.submit{
+					display: block;
+					margin:0 auto;
+					width: 50px;
+					height: 30px;
+					line-height: 30px;
+					text-align: center;
+					font-size: 16px;
+					background-color: gray;
+				} 
+			}
+		}
+	}
+}

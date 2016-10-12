@@ -1,0 +1,36 @@
+extends layout
+
+block content
+	div.header welcome
+	div.body
+		div.login.box
+			a.login-btn(href="javascript:void(0);")登录
+			div.login-layer
+				div.form-control
+					span.label 用户名
+					span.input-box
+						input.input(name="user",type="text")
+				div.form-control
+					span.label 密码
+					span.input-box
+						input.input(name="pwd",type="password")
+				div.form-control
+					a.login-submit.submit(href="javascript:void(0);") 登录
+		div.register.box
+			a.gegister-btn(href="javascript:void(0);")注册
+			div.login-layer
+				div.form-control
+					span.label 用户名
+					span.input-box
+						input.input(name="user",type="text")
+				div.form-control
+					span.label 密码
+					span.input-box
+						input.input(name="pwd",type="password")
+				div.form-control
+					span.label 确认密码
+					span.input-box
+						input.input(name="agin_pwd",type="password")
+				div.form-control
+					a.login-submit.submit(href="javascript:void(0);") 注册
+
